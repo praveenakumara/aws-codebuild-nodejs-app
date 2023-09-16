@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/ubuntu/clip-podcast-stream
+cd /home/ubuntu/simple-nodejs-app
 node server.js
