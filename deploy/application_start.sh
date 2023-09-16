@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd /home/ubuntu/simple-nodejs-app
-npx kill-port 4000 -y
-node server.js &
+pm2 delete server
+pm2 start server.js
